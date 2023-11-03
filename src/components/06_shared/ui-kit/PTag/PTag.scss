@@ -1,0 +1,23 @@
+.paragraph {
+  font-style: normal;
+  font-weight: $regular;
+  line-height: 24px;
+  margin: 0 ;
+
+  &_sm {
+    font-size: $paragraph-sm;
+  }
+
+  &_md {
+    font-size: $paragraph-md;
+  }
+
+  &_lg {
+    font-size: $paragraph-lg;
+    line-height: 29px;
+  }
+
+  &_xl {
+    font-size: $paragraph-xl;
+  }
+}

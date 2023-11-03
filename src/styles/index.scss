@@ -1,0 +1,19 @@
+//подключаем normalize
+@import './vendor/normalize';
+//подключаем мобильные стили
+@import './mixin/adaptive';
+//подключаем переменные
+@import './variables/variables';
+//
+@import './base/base.scss';
+
+
+@import '~shared/index.scss';
+
+
+
+//dev-style
+body, div, main, section, header, nav, ul, li, footer, figure, figcaption, span, img, button, a, p, h1, h2, h3, fieldset, input, form, label, button {
+  outline: solid red 1px;
+}
+//

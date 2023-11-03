@@ -1,0 +1,35 @@
+@import '~global_styles';
+
+.link {
+  display: inline-block;
+  opacity: .8;
+  text-decoration: none;
+  font-size: inherit;
+  line-height: 100%;
+  color: $dark;
+  font-weight: $light;
+  transform: scale(1);
+  transition: transform 0.3s linear;
+
+  &:hover {
+  cursor: pointer;
+  font-weight: $light;
+  color: $primary;
+  transform: scale(1.05);
+  transition: color transform 0.3s linear;
+  }
+
+}
+
+.link_active {
+  transition: color .4s;
+  color: $primary;
+  font-weight: $regular;
+  transform: scale(1.05);
+  transition: all .3s linear;
+  &:hover {
+    cursor: default;
+    }
+
+}
+

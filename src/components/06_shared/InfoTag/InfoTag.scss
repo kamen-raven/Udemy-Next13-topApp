@@ -1,0 +1,68 @@
+.infoTag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+
+  border-radius: 20px;
+  text-align: center;
+
+
+  &__link {
+    text-decoration: none;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    font-weight: inherit;
+  }
+
+
+  &_type {
+    &_sm {
+      font-size: $paragraph-xs;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding: 5px 10px;
+    }
+    &_md {
+      font-size: $paragraph-sm;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 100%;
+      padding: 10px 15px;
+    }
+  }
+
+  &_color {
+    &_transparent {
+      background-color: transparent;
+      color: $dark;
+      border: 1px solid #EBEBEB;
+    }
+
+    &_primary {
+      background-color: transparent;
+      color: $primary;
+      border: 1px solid $primary;
+    }
+
+    &_green {
+      background-color: $green-light;
+      color: $green;
+
+      font-weight: 700;
+    }
+
+    &_red {
+      background-color: $red;
+      color: $white;
+
+    }
+
+    &_gray {
+      background-color: $gray;
+      color: $white;
+    }
+  }
+}

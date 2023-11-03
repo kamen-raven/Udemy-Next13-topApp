@@ -1,0 +1,21 @@
+.button{
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+}
+
+.primary{
+  color: $white;
+  background-color: $primary;
+}
+
+.ghost {
+  color: $dark;
+  background: none;
+  border: 1px solid $bg-light;
+}

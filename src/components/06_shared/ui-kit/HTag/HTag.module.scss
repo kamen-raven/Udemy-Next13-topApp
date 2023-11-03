@@ -1,0 +1,47 @@
+@import '~variables';
+@import '~adaptive';
+
+.title {
+  font-weight: $regular;
+  font-size: $title;
+  text-transform: uppercase;
+  line-height: 120%;
+  margin: 1em 0 1em;
+
+  @include breakpoint(screen960) {
+    font-size: calc($title * .9);
+  }
+  @include breakpoint(screen768) {
+    font-size: calc($title * .8);
+  }
+  @include breakpoint(screen640) {
+
+  }
+  @include breakpoint(screen480) {
+    font-size: calc($title * .65);
+  }
+}
+
+.subtitle {
+  font-weight: $regular;
+  font-size: $subtitle;
+  text-transform: uppercase;
+  line-height: 120%;
+  margin: 0;
+
+
+  @include breakpoint(screen960) {
+    font-size: calc($subtitle * .9);
+  }
+  @include breakpoint(screen768) {
+    font-size: calc($subtitle * .8);
+  }
+  @include breakpoint(screen640) {
+
+  }
+  @include breakpoint(screen480) {
+    font-size: calc($subtitle * .75);
+  }
+
+
+}

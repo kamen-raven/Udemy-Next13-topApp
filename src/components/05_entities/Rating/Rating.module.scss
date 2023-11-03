@@ -1,0 +1,29 @@
+@import '~variables';
+@import '~adaptive';
+
+.ratingContainer {
+  display: flex;
+  width: fit-content;
+
+}
+
+.star svg {
+  margin: 5px;
+  &:focus {
+    outline: 1px solid $primary;
+
+  }
+}
+
+.filled svg {
+  fill: $primary;
+
+  }
+
+.filled_editable {
+    &:hover {
+      fill: rgba($color: $primary, $alpha: .8);
+      filter: drop-shadow( 0px 0px 5px rgba($primary, .8));
+    }
+
+}
